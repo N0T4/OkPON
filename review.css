@@ -55,8 +55,12 @@ header>ul>li {
 
 main>h1{
     margin-top: 370px;
+    margin-bottom: 140px;
 
-    color: #000;
+    color:#000;
+    background-color: rgba(255, 255, 255, 0.588);
+    border-radius: 20px;
+    
     
         text-align: center;
         font-family: Haettenschweiler;
@@ -64,4 +68,23 @@ main>h1{
         font-weight: bold;
         font-weight: 400;
         line-height: normal;
+}
+main>ul{
+    margin: 0 auto;
+    margin-bottom: 236px;
+    width: 1089px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px
+    ;
+    
+}
+main>ul>li{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.748);
+}
+main>ul>li>span{
+    font-weight: bolder;
 }
