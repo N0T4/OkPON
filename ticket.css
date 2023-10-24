@@ -1,9 +1,11 @@
 body {
     padding: 30px;
     background-image: url(img/ticket.png);
+    background-size: cover ;
 
     
 }
+
 
 h1 {
     margin: 0 auto;
@@ -47,7 +49,7 @@ article{
     
     position: relative;
     
-    box-shadow: 10px 10px 10px 10px #bab9b9;
+    box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.543);
     padding: 19px 17px  ;
     position: relative;
   box-sizing: border-box;
@@ -80,7 +82,7 @@ a{
     justify-content: center;
     align-items: center;
     border-radius: 20px ;
-    background-color: #8E8E8E;
+    background-color: #797979;
  
     padding: 23px 57px;
     text-decoration: none;
